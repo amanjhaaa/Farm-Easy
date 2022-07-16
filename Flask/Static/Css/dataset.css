@@ -1,0 +1,145 @@
+* {
+
+    box-sizing: border-box;
+  
+    padding: 0;
+
+}
+
+body{
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 10%, #ebd5a9 30%, #c2ce9c 64%, #7edbdc 100%);
+    
+
+}
+
+.top {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0px 0px;
+    border: 0;
+    background: linear-gradient(#57ebde, #aefb2a);
+    width: 100%;
+    position: fixed;
+    top: 0; 
+   
+
+}
+
+
+#farm{
+
+    text-align:center;
+    font-size:30px;
+    margin-bottom: 40px;
+    text-shadow: 6px 8px 10px  #57ebb0b7;
+    text-decoration: underline;
+    margin-top: 30px;
+
+ 
+
+   
+}
+.logo {
+    width: 60px;
+    height: fit-content;
+    margin-left: 45px;
+    border: 5px solid greenyellow;
+    display: inline;
+   
+}
+.logoadjuster{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+span{
+    font-size: 20px;
+    padding:5px 0px 4px 15px;
+}
+
+
+nav,li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 50px;
+    margin-left: 580px;
+  
+   
+  
+}
+
+li,a {
+  
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-left:20px;
+    text-decoration: none;
+    
+
+}
+
+li,a:hover {
+  
+    color:rgb(247, 247, 247);
+    font-size:medium;
+
+
+
+}
+#contact{
+    margin-right: 90px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  
+}
+
+#contact:hover{
+  
+    color:rgb(247, 247, 247)
+}
+
+
+
+
+#ddd{
+    width:100px;
+    height:50px;
+}
+
+/* data set styling */
+
+h2{
+    color: #e70c0c;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+h3{
+    color: #421af4;
+    font-size: xx-large;
+    text-align:justify;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+div p{
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    text-indent: 8px;
+    text-align: justify;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 10px;
+}

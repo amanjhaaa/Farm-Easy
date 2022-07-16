@@ -1,0 +1,194 @@
+* {
+
+    box-sizing: border-box;
+
+    padding: 0;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 10%, #ebd5a9 30%, #c2ce9c 64%, #7edbdc 100%);
+
+
+}
+
+.top {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 0px 0px;
+    border: 0;
+    background: linear-gradient(#57ebde, #aefb2a);
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+
+}
+
+
+#farm {
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-shadow: 6px 8px 10px #57ebb0b7;
+    text-decoration: underline;
+    margin-top: 30px;
+
+
+
+
+}
+
+.logo {
+    width: 60px;
+    height: fit-content;
+    margin-left: 45px;
+    border: 5px solid greenyellow;
+    display: inline;
+
+}
+
+.logoadjuster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+nav,
+li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 50px;
+    margin-left: 580px;
+
+
+
+}
+
+li,
+a {
+
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+
+
+}
+
+li,
+a:hover {
+
+    color: rgb(247, 247, 247);
+    font-size: medium;
+
+
+
+}
+
+#contact {
+    margin-right: 90px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+
+#contact:hover {
+
+    color: rgb(247, 247, 247)
+}
+
+
+
+
+#ddd {
+    width: 100px;
+    height: 50px;
+}
+
+/* data set styling */
+
+h2 {
+    color: #e70c0c;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+h3 {
+    color: #421af4;
+    font-size: xx-large;
+    text-align: justify;
+    margin-top: 80px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin-top: 150px;
+
+    font-weight: 900;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 12rem;
+    align-self: center;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    color: rgb(11, 139, 251);
+    font-family: fantasy;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+button {
+    background-color: transparent;
+    border: 3px ridge #23ed0d;
+    color: #f07c00;
+}
+
+button:hover {
+    animation: heartbeat 1s infinite;
+    transition: .3s;
+    background-color: #aefb2a;
+    box-shadow: 0 0 10px #19ddcd, 0 0 20px #57ebde, 0 0 15px #eab60c;
+
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
